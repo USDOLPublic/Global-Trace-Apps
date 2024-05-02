@@ -1,0 +1,16 @@
+//
+//  Define-defaults.xcconfig
+//  Runner
+//
+//  Created by Luc on 24/07/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+APP_NAME=Global Trace Protocol
+APP_SUFFIX=
+APP_VERSION=1.0.0
+APP_VERSION_CODE=2
+APP_ENVIRONMENT_TYPE=production
+APP_AOS_GOOGLE_SERVICE_KEY=
+APP_IOS_GOOGLE_SERVICE_KEY=

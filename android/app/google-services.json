@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "638341119217",
+    "firebase_url": "https://usdol-dev-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "usdol-dev",
+    "storage_bucket": "usdol-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638341119217:android:e70d6d09748517bb55bd50",
+        "android_client_info": {
+          "package_name": "com.dgnx.usdol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638341119217-mfmf8v9fhoeeppoigm8robt7dvigoh43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dgnx.usdol",
+            "certificate_hash": "2225a67a35b7507127f4f47a3a20f62fd4482c4e"
+          }
+        },
+        {
+          "client_id": "638341119217-6hvo21s0t04nkp18mup2vl8ecorojr87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR7VUyXifLGrZztxwUqKQcu6xrL4VGq4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638341119217-6hvo21s0t04nkp18mup2vl8ecorojr87.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "638341119217-2qab5vp6ik9mpfoouc9ttqrq0rg9e1sd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dgnx.usdol.dev",
+                "app_store_id": "1234567"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638341119217:android:3a85a4fd74c9f37c55bd50",
+        "android_client_info": {
+          "package_name": "com.dgnx.usdol.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638341119217-6hvo21s0t04nkp18mup2vl8ecorojr87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR7VUyXifLGrZztxwUqKQcu6xrL4VGq4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638341119217-6hvo21s0t04nkp18mup2vl8ecorojr87.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "638341119217-2qab5vp6ik9mpfoouc9ttqrq0rg9e1sd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dgnx.usdol.dev",
+                "app_store_id": "1234567"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638341119217:android:4371e81e1b30c78c55bd50",
+        "android_client_info": {
+          "package_name": "com.dgnx.usdol.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638341119217-6hvo21s0t04nkp18mup2vl8ecorojr87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR7VUyXifLGrZztxwUqKQcu6xrL4VGq4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638341119217-6hvo21s0t04nkp18mup2vl8ecorojr87.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "638341119217-2qab5vp6ik9mpfoouc9ttqrq0rg9e1sd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dgnx.usdol.dev",
+                "app_store_id": "1234567"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638341119217:android:34f5965ee4a53da955bd50",
+        "android_client_info": {
+          "package_name": "com.dgnx.usdol.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638341119217-6hvo21s0t04nkp18mup2vl8ecorojr87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR7VUyXifLGrZztxwUqKQcu6xrL4VGq4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638341119217-6hvo21s0t04nkp18mup2vl8ecorojr87.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "638341119217-2qab5vp6ik9mpfoouc9ttqrq0rg9e1sd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dgnx.usdol.dev",
+                "app_store_id": "1234567"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

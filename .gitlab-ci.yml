@@ -1,0 +1,94 @@
+stages:
+  - analyze
+  - test # All jobs related for testing such as Unit Test
+  - android-build
+  - android-deploy
+  # - ios-build
+  # - ios-deploy
+
+analyze:
+ stage: analyze
+ script:
+  - fvm flutter --version  
+  - fvm flutter analyze
+ tags:
+  - flutter
+ only:
+  - master
+  - develop
+  - merge_requests
+ when: manual
+
+flutter_test: # Name of the lane
+  stage: test # type of stage
+  script:
+    - fvm flutter test # Run Flutter test
+  tags:
+    - flutter # Tags for runner
+  only:
+    - master
+    - develop
+    - merge_requests
+  when: manual 
+
+flutter_build_android:
+  stage: android-build
+  before_script:
+    - cd android
+    - source ~/.zshrc
+    - bundle install --deployment
+  script:
+    - bundle exec fastlane build
+  artifacts:
+    paths:
+      - build/app/outputs/apk/release/app-release.apk
+  tags:
+    - flutter
+  only:
+    - master
+    - develop
+  when: manual
+
+deploy_android:
+  stage: android-deploy
+  before_script:
+    - cd android
+    - source ~/.zshrc
+    - bundle install --deployment
+  dependencies:
+    - flutter_build_android
+  script:
+    - bundle exec fastlane deploy
+  tags:
+    - flutter
+  only:
+    - master
+    - develop
+  when: manual
+# flutter_build_ios:
+#   stage: ios-build
+#   before_script:
+#     - cd ios
+#     - source ~/.zshrc
+#     - ruby --version
+#     - which ruby
+#     - bundle install --deployment
+#   script:
+#     - bundle exec fastlane build
+#   artifacts:
+#     paths:
+#       - ios/build/Runner.ipa
+#   tags:
+#     - flutter
+
+# deploy_ios:
+#   stage: ios-deploy
+#   before_script:
+#     - cd ios
+#     - bundle install --deployment
+#   dependencies:
+#     - flutter_build_ios
+#   script:
+#     - bundle exec fastlane deploy
+#   tags:
+#     - flutter

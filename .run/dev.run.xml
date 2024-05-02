@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="dev" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="additionalArgs" value="--dart-define=APP_NAME=&quot;[dev]Global Trace Protocol&quot; --dart-define=APP_SUFFIX=&quot;&quot; --dart-define=APP_IS_DEBUG=&quot;y&quot; --dart-define=APP_IS_ENABLE_SWITCH_ENV=&quot;y&quot; --dart-define=APP_ENVIRONEMT_TYPE=&quot;development&quot;" />
+    <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,111 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "dev",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define",
+                "APP_NAME=[dev]USDOL",
+                "--dart-define",
+                "APP_SUFFIX=.dev",
+                "--dart-define",
+                "APP_VERSION=1.0.1",
+                "--dart-define",
+                "APP_VERSION_CODE=10",
+                "--dart-define",
+                "APP_IS_DEBUG=y",
+                "--dart-define",
+                "APP_ENVIRONMENT_TYPE=dev",
+                "--dart-define",
+                "APP_DEEP_LINK_KEY_LIVE=key_live_pweE76eK714TAKBYGqd9dkenCtnCtRUX",
+                "--dart-define",
+                "APP_DEEP_LINK_KEY_TEST=key_test_kAnFX2oPYX5QBRu5Tug4cdfnwDmtrSYn",
+                "--dart-define",
+                "APP_DEEP_LINK_DOMAIN=p8yjw.app.link",
+                "--dart-define",
+                "APP_DEEP_LINK_ALTERNATIVE_DOMAIN=p8yjw-alternate.app.link"
+            ]
+        },
+        {
+            "name": "qa",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define",
+                "APP_NAME=[qa]USDOL",
+                "--dart-define",
+                "APP_SUFFIX=.qa",
+                "--dart-define",
+                "APP_VERSION=1.0.1",
+                "--dart-define",
+                "APP_VERSION_CODE=10",
+                "--dart-define",
+                "APP_IS_DEBUG=y",
+                "--dart-define",
+                "APP_ENVIRONMENT_TYPE=qa"
+            ]
+        },
+        {
+            "name": "uat",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define",
+                "APP_NAME=[uat]Global Trace Protocol",
+                "--dart-define",
+                "APP_SUFFIX=.uat",
+                "--dart-define",
+                "APP_VERSION=1.0.1",
+                "--dart-define",
+                "APP_VERSION_CODE=10",
+                "--dart-define",
+                "APP_IS_DEBUG=y",
+                "--dart-define",
+                "APP_ENVIRONMENT_TYPE=uat"
+            ]
+        },
+        {
+            "name": "staging",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define",
+                "APP_NAME=[staging]Global Trace Protocol",
+                "--dart-define",
+                "APP_SUFFIX=.staging",
+                "--dart-define",
+                "APP_VERSION=1.0.1",
+                "--dart-define",
+                "APP_VERSION_CODE=10",
+                "--dart-define",
+                "APP_IS_DEBUG=y",
+                "--dart-define",
+                "APP_ENVIRONMENT_TYPE=staging"
+            ]
+        },
+        {
+            "name": "prod",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define",
+                "APP_NAME=Global Trace Protocol",
+                "--dart-define",
+                "APP_SUFFIX=",
+                "--dart-define",
+                "APP_VERSION=1.0.1",
+                "--dart-define",
+                "APP_VERSION_CODE=10",
+                "--dart-define",
+                "APP_IS_DEBUG=y",
+                "--dart-define",
+                "APP_ENVIRONMENT_TYPE=production"
+            ]
+        },
+    ]
+}
